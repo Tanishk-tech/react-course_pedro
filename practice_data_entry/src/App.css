@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.addData{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  padding-top: 20px;
+}
+
+.addLegend {
+  background: #B3E5FC;
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.dataSets{
+  background: #B3E5FC;
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.addData button{
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.addDataSet{
+  display: flex;
+  flex-direction: column;
+}
+
+.dataSetConfig{
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.dataSetColor label{
+  width: 50%;
+}
+
+.dataSetColor .dataSetInput{
+  width: 50%;
+  text-align: end;
+}
+
+.dataSetColor .dataSetInput input{
+  width: 25px;
+}
+
+/********************** datasets draggable  *********************/
+
+.dataSets{
+  cursor: move;
+}
+
